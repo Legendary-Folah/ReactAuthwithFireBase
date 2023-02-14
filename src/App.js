@@ -1,5 +1,6 @@
 import './App.css';
 
+
 function App() {
   return (
     <div className='App'>
@@ -13,7 +14,7 @@ function App() {
                 type='text' 
                 className='input-form' 
                 id='name'
-                value={name}
+                // value={name}
             />
             </div>
             <div className='form-row'>
@@ -24,7 +25,7 @@ function App() {
                 type='email' 
                 className='input-form' 
                 id='email'
-                value={email}
+                // value={email}
             />
             </div>
         </form>
