@@ -14,7 +14,7 @@ function App() {
             </label>
             <input 
                 type='text' 
-                className='input-form' 
+                className='form-input' 
                 id='name'
                 // value={name}
             />
@@ -27,13 +27,13 @@ function App() {
             </label>
             <input 
                 type='email' 
-                className='input-form' 
+                className='form-input' 
                 id='email'
                 // value={email}
             />
             </div>
         </form>
-        <button type='submit'>Login</button>
+        <button type='submit' className='btn btn-block'>Login</button>
     </div>
   );
 }
