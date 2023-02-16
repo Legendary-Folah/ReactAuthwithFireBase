@@ -56,14 +56,13 @@ body {
 
 .App {
   padding: 2rem 2rem;
-  width: 90vw;
+  /* width: 90vw; */
   max-width: var(--max-width);
   margin: 0 auto;
 }
 
 .form {
-  width: 90vw;
-  max-width: 400px;
+  /* width: 90vw; */
   background: var(--white);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
