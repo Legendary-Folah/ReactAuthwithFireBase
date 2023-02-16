@@ -7,7 +7,9 @@ function App() {
         <form className='form'>
             <h2>Login</h2>
             <div className='form-row'>
-            <label className='label-form'>
+            <label 
+                htmlfor='name' 
+                className='label-form'>
                 Name
             </label>
             <input 
