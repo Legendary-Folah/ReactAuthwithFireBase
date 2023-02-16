@@ -2,7 +2,7 @@ import './App.css';
 
 
 function App() {
-const handleSubmit = (e) => {
+const handleSubmit = e => {
     e.preventDefault();
 }
 
