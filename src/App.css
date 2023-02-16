@@ -54,6 +54,13 @@ body {
   background: linear-gradient(to left, lightblue, whitesmoke);
 }
 
+.App {
+  padding: 2rem 2rem;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
 .form {
   width: 90vw;
   max-width: 400px;
