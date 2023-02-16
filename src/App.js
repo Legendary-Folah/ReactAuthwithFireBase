@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='App'>
         <form className='form'>
-            <h2>Login</h2>
+            <h5>Login</h5>
             <div className='form-row'>
             <label 
                 htmlFor='name' 
