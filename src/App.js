@@ -33,7 +33,10 @@ function App() {
             />
             </div>
         </form>
-        <button type='submit' className='btn btn-block'>Login</button>
+        <button 
+            type='submit' 
+            className='btn btn-block'
+            onSubmit={handleSubmit}>Login</button>
     </div>
   );
 }
