@@ -56,7 +56,6 @@ body {
 
 .App {
   padding: 2rem 2rem;
-  /* width: 90vw; */
   max-width: var(--max-width);
   margin: 0 auto;
 }
