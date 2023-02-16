@@ -2,6 +2,10 @@ import './App.css';
 
 
 function App() {
+const handleSubmit = (e) => {
+    e.preventDefault();
+}
+
   return (
     <div className='App'>
         <form className='form'>
