@@ -59,6 +59,7 @@ h5 {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
   font-size: 1.25rem;
+  padding: 0 9rem;
 }
 
 body {
