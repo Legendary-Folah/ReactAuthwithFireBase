@@ -9,7 +9,7 @@ function App() {
             <div className='form-row'>
             <label 
                 htmlFor='name' 
-                className='label-form'>
+                className='form-label'>
                 Name
             </label>
             <input 
@@ -22,7 +22,7 @@ function App() {
             <div className='form-row'>
             <label 
                 htmlFor='email'
-                className='label-form'>
+                className='form-label'>
                 Email
             </label>
             <input 
