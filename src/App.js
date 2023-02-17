@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 const handleSubmit = e => {
@@ -7,7 +7,7 @@ const handleSubmit = e => {
 }
 
   return (
-    <>
+    <div className='App'>
     <div className='App'>
         <form className='form'>
             <h5>Login</h5>
@@ -49,7 +49,7 @@ const handleSubmit = e => {
     <div className='sign-up'>
         Don't have an Account? SIgn Up
     </div>
-    </>
+    </div>
   );
 }
 
