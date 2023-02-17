@@ -140,5 +140,12 @@ body {
   text-align: center;
 }
 
+.sign-up {
+  text-align: center;
+  color: var(--primary-500);
+}
+
+
+
 
 

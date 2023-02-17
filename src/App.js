@@ -6,6 +6,7 @@ const handleSubmit = e => {
 }
 
   return (
+    <>
     <div className='App'>
         <form className='form'>
             <h5>Login</h5>
@@ -44,6 +45,10 @@ const handleSubmit = e => {
         </button>
         <div className='forget'>Forgot Password ?</div>
     </div>
+    <div className='sign-up'>
+        Don't have an Account ? SIgn Up
+    </div>
+    </>
   );
 }
 
