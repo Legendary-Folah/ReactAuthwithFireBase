@@ -69,16 +69,15 @@ body {
 .App {
   padding: 2rem 2rem;
   max-width: var(--max-width);
-  margin: 0 auto;
+  margin: 2rem auto;
   border: 1px solid;
 }
 
 .form {
-  background: var(--white);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
-  padding: 2rem 2.5rem;
-  margin: 3rem 0;
+  padding: 2rem;
+  margin: 2rem 0;
 }
 .form-label {
   display: block;
