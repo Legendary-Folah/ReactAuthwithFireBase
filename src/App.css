@@ -70,10 +70,10 @@ body {
   padding: 2rem 2rem;
   max-width: var(--max-width);
   margin: 0 auto;
+  border: 1px solid;
 }
 
 .form {
-  /* width: 90vw; */
   background: var(--white);
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
