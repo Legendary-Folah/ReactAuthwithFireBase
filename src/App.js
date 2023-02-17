@@ -8,7 +8,6 @@ const handleSubmit = e => {
 
   return (
     <div className='App'>
-    <div className='App'>
         <form className='form'>
             <h5>Login</h5>
             <div className='form-row'>
@@ -45,11 +44,11 @@ const handleSubmit = e => {
         Login
         </button>
         <div className='forget'>Forgot Password ?</div>
-    </div>
-    <div className='sign-up'>
+        <div className='sign-up'>
         Don't have an Account? SIgn Up
+        </div>
     </div>
-    </div>
+    
   );
 }
 
