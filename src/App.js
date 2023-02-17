@@ -40,7 +40,9 @@ const handleSubmit = e => {
         <button 
             type='submit' 
             className='btn btn-block'
-            onSubmit={handleSubmit}>Login</button>
+            onSubmit={handleSubmit}>
+        Login
+        </button>
     </div>
   );
 }
