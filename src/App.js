@@ -46,7 +46,7 @@ const handleSubmit = e => {
         <div className='forget'>Forgot Password ?</div>
     </div>
     <div className='sign-up'>
-        Don't have an Account ? SIgn Up
+        Don't have an Account? SIgn Up
     </div>
     </>
   );
