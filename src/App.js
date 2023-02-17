@@ -43,6 +43,7 @@ const handleSubmit = e => {
             onSubmit={handleSubmit}>
         Login
         </button>
+        <div className='forget'>Forgot Password ?</div>
     </div>
   );
 }
