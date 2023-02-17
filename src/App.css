@@ -58,7 +58,6 @@ h5 {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
   font-size: 1.25rem;
-  
 }
 
 body {
@@ -71,6 +70,7 @@ body {
   max-width: var(--max-width);
   margin: 2rem auto;
   border: 1px solid;
+  border-radius: var(--borderRadius);
 }
 
 .form {
