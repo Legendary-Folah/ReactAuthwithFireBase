@@ -22,7 +22,7 @@ function SignUp() {
         </Card.Body>
       </Card>
       <div className='w-100 text-center mt-2'>
-        Already have an acount? Log In here
+        Already have an account? Log In here
       </div>
     </>
   )
