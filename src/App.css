@@ -111,7 +111,7 @@ body {
   border: transparent;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
-  padding: 0.5rem 0.75rem;
+  padding: 0.7rem 0.75rem;
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-transform: capitalize;
@@ -132,6 +132,7 @@ body {
 .btn-block {
   width: 100%;
   font-family: monospace;
+  padding: 0.5rem;
 }
 
 .forget {
