@@ -3,9 +3,12 @@ import { Form, Button, Card } from 'react-bootstrap';
 
 function SignUp() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Card></Card>
+      <div className='w-100 text-center mt-2'>
+        Already have an acount? Log In here
+      </div>
+    </>
   )
 }
 
