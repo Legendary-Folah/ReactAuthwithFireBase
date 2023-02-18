@@ -77,8 +77,8 @@ body {
 .form {
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
-  padding: 1rem;
-  margin: 1.5rem 0;
+  padding: 0;
+  margin: 1rem 0;
 }
 .form-label {
   display: block;
