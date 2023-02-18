@@ -11,6 +11,14 @@ function SignUp() {
                 <Form.Label>Email</Form.Label>
                 <Form.Control type='email' ref={emailRef} required />
             </Form.Group>
+            <Form.Group id='password'>
+                <Form.Label>Password</Form.Label>
+                <Form.Control type='password' ref={passwordRef} required />
+            </Form.Group>
+            <Form.Group id='confirm-password'>
+                <Form.Label>Confirm Password</Form.Label>
+                <Form.Control type='password' ref={confirmPasswordRef} required />
+            </Form.Group>
         </Card.Body>
       </Card>
       <div className='w-100 text-center mt-2'>
