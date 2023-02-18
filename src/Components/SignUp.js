@@ -7,6 +7,9 @@ function SignUp() {
       <Card>
         <Card.Body>
             <h2 className='text-center mb-4'>Sign Up</h2>
+            <Form.Group id='email'>
+                <Form.Label>Email</Form.Label>
+            </Form.Group>
         </Card.Body>
       </Card>
       <div className='w-100 text-center mt-2'>
