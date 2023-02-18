@@ -9,6 +9,7 @@ function SignUp() {
             <h2 className='text-center mb-4'>Sign Up</h2>
             <Form.Group id='email'>
                 <Form.Label>Email</Form.Label>
+                <Form.Control type='email' ref={emailRef} required />
             </Form.Group>
         </Card.Body>
       </Card>
