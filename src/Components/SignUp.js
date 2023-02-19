@@ -2,6 +2,9 @@ import React, { useRef } from 'react'
 import { Form, Button, Card } from 'react-bootstrap';
 
 function SignUp() {
+
+const emailRef = useRef();
+
   return (
     <>
       <Card>
