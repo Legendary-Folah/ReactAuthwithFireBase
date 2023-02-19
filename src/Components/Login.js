@@ -9,7 +9,11 @@ const Login = () => {
 
     return (
         <>
-
+            <Card className="card">
+                <Card.Body>
+                    <h3 className="text-center mb-3">Login</h3>
+                </Card.Body>
+            </Card>
         </>
     );
 };
