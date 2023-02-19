@@ -11,7 +11,7 @@ const confirmPasswordRef = useRef();
     <>
       <Card>
         <Card.Body>
-            <h2 className='text-center mb-3'>Sign Up</h2>
+            <h3 className='text-center mb-3'>Sign Up</h3>
             <Form>
             <Form.Group id='email'>
                 <Form.Label>Email</Form.Label>
