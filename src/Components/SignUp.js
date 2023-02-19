@@ -25,7 +25,7 @@ const confirmPasswordRef = useRef();
                 <Form.Label>Confirm Password</Form.Label>
                 <Form.Control type='password' ref={confirmPasswordRef} required />
             </Form.Group>
-            <Button className='w-100' type='submit'>SIgn Up</Button>
+            <Button className='w-100 mt-2' type='submit'>SIgn Up</Button>
             </Form>
         </Card.Body>
       </Card>
