@@ -63,8 +63,14 @@ h5 {
 
 body {
   font-family: monospace;
-  /* background: linear-gradient(to left, lightblue, lightgreen); */
+  background: linear-gradient(to left, lightblue, lightgreen);
 }
+
+.card {
+  font-family: monospace;
+  background: linear-gradient(to left, lightblue, lightgreen);
+}
+
 /* 
 .App {
   padding: 2rem 2rem;

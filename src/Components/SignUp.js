@@ -9,7 +9,7 @@ const confirmPasswordRef = useRef();
 
   return (
     <>
-      <Card>
+      <Card className='card'>
         <Card.Body>
             <h3 className='text-center mb-3'>Sign Up</h3>
             <Form>
