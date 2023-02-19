@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Login from './Login';
 
 function SignUp() {
 

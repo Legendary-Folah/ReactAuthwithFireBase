@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Form, Button, Card } from "react-bootstrap";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Login() {
 
@@ -25,6 +25,10 @@ function Login() {
                     </Form>
                 </Card.Body>
             </Card>
+            <div className="w-100 text-center mt-2">
+                Don't have an account yet? 
+                <Link to='/'>Sign Up</Link>    
+            </div> 
         </>
     );
 };
