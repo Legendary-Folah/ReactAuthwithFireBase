@@ -1,11 +1,8 @@
 import React, { useRef } from "react";
 import { Form, Button, Card } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
-const Login = () => {
-
-    const handleSubmit = e => {
-        e.preventDefault();
-    }
+function Login() {
 
     const emailRef = useRef();
     const passwordRef = useRef();
