@@ -11,7 +11,7 @@ const confirmPasswordRef = useRef();
     <>
       <Card>
         <Card.Body>
-            <h2 className='text-center mb-4'>Sign Up</h2>
+            <h2 className='text-center mb-3'>Sign Up</h2>
             <Form>
             <Form.Group id='email'>
                 <Form.Label>Email</Form.Label>
@@ -25,7 +25,7 @@ const confirmPasswordRef = useRef();
                 <Form.Label>Confirm Password</Form.Label>
                 <Form.Control type='password' ref={confirmPasswordRef} required />
             </Form.Group>
-            <Button className='w-100 mt-2' type='submit'>SIgn Up</Button>
+            <Button className='w-100 mt-4' type='submit'>SIgn Up</Button>
             </Form>
         </Card.Body>
       </Card>
@@ -33,7 +33,7 @@ const confirmPasswordRef = useRef();
         Already have an account? Login
       </div>
     </>
-  )
-}
+  );
+};
 
 export default SignUp;
