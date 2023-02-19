@@ -8,6 +8,7 @@ const Login = () => {
     }
 
     const emailRef = useRef();
+    const passwordRef = useRef();
 
     return (
         <>
