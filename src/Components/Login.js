@@ -12,6 +12,12 @@ const Login = () => {
             <Card className="card">
                 <Card.Body>
                     <h3 className="text-center mb-3">Login</h3>
+                    <Form>
+                        <Form.Group id="email">
+                            <Form.Label>Email</Form.Label>
+                            <Form.Control type="email" ref={emailRef} required />
+                        </Form.Group>
+                    </Form>
                 </Card.Body>
             </Card>
         </>
