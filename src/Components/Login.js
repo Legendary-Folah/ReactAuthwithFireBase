@@ -21,6 +21,7 @@ function Login() {
                             <Form.Label>Password</Form.Label>
                             <Form.Control type="password" ref={passwordRef} required />
                         </Form.Group>
+                        <Button className='w-100 mt-4 center' type='submit'>Login</Button>
                     </Form>
                 </Card.Body>
             </Card>
