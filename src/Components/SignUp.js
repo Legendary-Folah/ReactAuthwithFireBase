@@ -4,6 +4,8 @@ import { Form, Button, Card } from 'react-bootstrap';
 function SignUp() {
 
 const emailRef = useRef();
+const passwordRef = useRef();
+const confirmPasswordRef = useRef();
 
   return (
     <>
