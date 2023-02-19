@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Form, Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function SignUp() {
 
@@ -30,7 +31,8 @@ const confirmPasswordRef = useRef();
         </Card.Body>
       </Card>
       <div className='w-100 text-center mt-2'>
-        Already have an account? Login
+        Already have an account? 
+        <Link to='/login'>Login</Link>
       </div>
     </>
   );
