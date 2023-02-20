@@ -9,6 +9,8 @@ const passwordRef = useRef();
 const confirmPasswordRef = useRef();
 const signup = useAuth();
 
+
+
   return (
     <>
       <Card className='card'>
