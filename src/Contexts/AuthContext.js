@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react'
+import { auth } from '../Firebase/Firebase';
 
 const AuthContext = React.createContext();
 
@@ -7,7 +8,6 @@ export function useAuth() {
 }
 
 export function AuthProvider({ children }) {
-
 const [currentUser, setCurrentUser] = useState()
 
 const value = {
