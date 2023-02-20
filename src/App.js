@@ -11,7 +11,9 @@ function App() {
         <Routes>
             <Route path='/' element={<SignUp />} />
             <Route path='/login' element={<Login />} />
-            <Route path='/signup' element={<SignUp />} />
+            <Container>
+              <Route path='/signup' element={<SignUp />} />
+            </Container>
             <Route path='*' element={<Error />} />
         </Routes>
     </BrowserRouter>
