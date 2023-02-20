@@ -7,7 +7,16 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    
+    <>
+    <Container className='d-flex 
+      align-items-center 
+      justify-content-center'
+      style={{ minHeight: '100vh' }}
+      >
+      <SignUp />
+    </Container>
+      
+    </>
   )
 };
 
