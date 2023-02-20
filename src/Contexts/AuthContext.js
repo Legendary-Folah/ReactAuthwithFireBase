@@ -14,12 +14,12 @@ function signup(email, password) {
     return auth.createUserWithEmailAndPassword(email, password)
 }
 
-React.useEffect(() => {
-    const unSubscribe = auth().onAuthStateChanged((user) => {
+useEffect(() => {
+    const unSubscribe = auth.onAuthStateChanged((user) => {
         setCurrentUser(user)
 
     });
-    return () => unSubscribe();
+    return unSubscribe;
 }, [])
 
 const value = {
