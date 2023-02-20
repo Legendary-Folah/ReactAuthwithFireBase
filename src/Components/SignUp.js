@@ -9,7 +9,9 @@ const passwordRef = useRef();
 const confirmPasswordRef = useRef();
 const signup = useAuth();
 
-
+function handleSubmit(e) {
+  e.preventDefault();
+}
 
   return (
     <>
