@@ -1,6 +1,8 @@
 import React from 'react'
 
-function AuthContext() {
+const AuthContext = React.createContext();
+
+function AuthProvider() {
   return (
     <div>
       
