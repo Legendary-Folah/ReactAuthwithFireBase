@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react'
 // import auth from '../Firebase/Firebase';
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
-const AuthContext = React.createContext();
+export const AuthContext = React.createContext();
 const auth = getAuth();
 
 export function useAuth() {
@@ -17,7 +17,7 @@ function signup(email, password) {
 }
 
 useEffect(() => {
-    const unSubscribe = onAuthStateChanged( auth, user => {
+    const unSubscribe = onAuthStateChanged( auth, (user) => {
       console.log(user)
         setCurrentUser(user)
 
