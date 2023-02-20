@@ -8,7 +8,7 @@ import { AuthProvider } from './Contexts/AuthContext';
 
 function App() {
   return (
-    <AuthProvider></AuthProvider>>
+    <AuthProvider>
     <Container className='d-flex 
       align-items-center 
       justify-content-center'
@@ -19,7 +19,7 @@ function App() {
         <SignUp />
       </div>
     </Container>
-      
+    </AuthProvider>
   )
 };
 
