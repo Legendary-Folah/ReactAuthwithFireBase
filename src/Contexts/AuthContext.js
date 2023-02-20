@@ -10,4 +10,3 @@ function AuthProvider({ children }) {
   )
 }
 
-export default AuthContext
