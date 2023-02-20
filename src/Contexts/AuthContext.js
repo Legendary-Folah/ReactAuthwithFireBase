@@ -8,7 +8,9 @@ export function useAuth() {
 
 export function AuthProvider({ children }) {
 
-const
+const value = {
+    
+}
 
   return (
     <AuthContext.Provider value={value}>
