@@ -18,8 +18,8 @@ useEffect(() => {
     const unSubscribe = auth.onAuthStateChanged( user => {
         setCurrentUser(user)
 
-        return unSubscribe
     });
+    return unSubscribe;
 }, [])
 
 const value = {
