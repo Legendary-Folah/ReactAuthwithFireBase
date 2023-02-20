@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Login from './Login';
+// import Login from './Components/Login'
 
 function SignUp() {
 
