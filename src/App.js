@@ -4,10 +4,11 @@ import Login from './Components/Login';
 import Error from './Components/Error';
 import { Container } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AuthProvider } from './Contexts/AuthContext';
 
 function App() {
   return (
-    <>
+    <AuthProvider></AuthProvider>>
     <Container className='d-flex 
       align-items-center 
       justify-content-center'
@@ -19,7 +20,6 @@ function App() {
       </div>
     </Container>
       
-    </>
   )
 };
 
