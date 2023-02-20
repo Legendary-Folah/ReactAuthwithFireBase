@@ -14,7 +14,7 @@ function signup(email, password) {
     return auth.createUserWithEmailAndPassword(email, password)
 }
 
-useEffect(() => {
+React.useEffect(() => {
     const unSubscribe = auth().onAuthStateChanged((user) => {
         setCurrentUser(user)
 
