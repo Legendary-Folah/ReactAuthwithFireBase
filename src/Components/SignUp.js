@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import { Form, Button, Card } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
-// import Login from './Components/Login'
+import { useAuth } from '../Contexts/AuthContext';
 
 function SignUp() {
 
 const emailRef = useRef();
 const passwordRef = useRef();
 const confirmPasswordRef = useRef();
+const signup = useAuth();
 
   return (
     <>
