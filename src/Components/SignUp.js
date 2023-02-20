@@ -11,6 +11,8 @@ const signup = useAuth();
 
 function handleSubmit(e) {
   e.preventDefault();
+
+  
 }
 
   return (
