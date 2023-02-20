@@ -23,7 +23,8 @@ useEffect(() => {
 }, [])
 
 const value = {
-    currentUser
+    currentUser,
+    signup
 }
 
   return (
