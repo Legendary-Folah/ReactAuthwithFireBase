@@ -13,7 +13,7 @@ function App() {
       justify-content-center'
       style={{ minHeight: '100vh' }}
       >
-      <div className='w-100' 
+      <div className='w-100 mt-0' 
         style={{ maxWidth: '400px' }}>
         <SignUp />
       </div>
