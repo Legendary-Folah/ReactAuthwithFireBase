@@ -33,7 +33,7 @@ const confirmPasswordRef = useRef();
       </Card>
       <div className='w-100 text-center mt-2'>
         Already have an account? 
-        <Link to='/login'>Login</Link>
+        <p>Login</p>
       </div>
     </>
   );
