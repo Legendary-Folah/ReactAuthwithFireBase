@@ -9,7 +9,7 @@ export function useAuth() {
 export function AuthProvider({ children }) {
 
 const value = {
-    
+    currentUser
 }
 
   return (
