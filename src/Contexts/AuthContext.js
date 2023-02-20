@@ -19,7 +19,7 @@ React.useEffect(() => {
         setCurrentUser(user)
 
     });
-    return () => unSubscribe;
+    return () => unSubscribe();
 }, [])
 
 const value = {
