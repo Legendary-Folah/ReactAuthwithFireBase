@@ -2,7 +2,7 @@ import React from 'react'
 
 const AuthContext = React.createContext();
 
-function AuthProvider({ children }) {
+export function AuthProvider({ children }) {
   return (
     <AuthContext.Provider>
       {children}
