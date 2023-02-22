@@ -18,7 +18,6 @@ function signup(email, password) {
 
 useEffect(() => {
     const unSubscribe = onAuthStateChanged( auth, (user) => {
-      console.log(user)
         setCurrentUser(user)
 
     });
