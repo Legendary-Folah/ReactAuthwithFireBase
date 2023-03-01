@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import 'firebase/auth';
+import app from 'firebase/auth';
 import { getAuth } from "firebase/compat/auth";
 import { getFirestore } from "firebase/firestore";
 
