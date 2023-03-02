@@ -3,7 +3,7 @@ import React, { useContext, useState, useEffect } from 'react'
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 export const AuthContext = React.createContext();
-const auth = getAuth(app);
+const auth = getAuth();
 
 export function useAuth() {
     return useContext(AuthContext)
